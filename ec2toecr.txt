@@ -1,0 +1,12 @@
+1. launch the ec2 linux machine.
+2. during launching will do bootstrapping.
+a. yum update
+b. yum install git
+c.yum install docker
+d. systemctl start docker
+3. git clone.
+4. create new registry on ecr.
+a. create iam for ecr and assign role.
+5. docker file push to ecr.
+
+
