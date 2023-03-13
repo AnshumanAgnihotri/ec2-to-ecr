@@ -1,12 +1,14 @@
 1. launch the ec2 linux machine.
-2. during launching will do bootstrapping.
+2. run these commands
 a. yum update
 b. yum install git
 c.yum install docker
 d. systemctl start docker
 3. git clone.
-4. create new registry on ecr.
+4. install aws cli tool.
+5. configure aws account with host machine.
+6. create new registry on ecr.
 a. create iam for ecr and assign role.
-5. docker file push to ecr.
-
-
+7. docker file push to ecr.
+8.ecr push commands
+Now you can see your image in your ecr.
